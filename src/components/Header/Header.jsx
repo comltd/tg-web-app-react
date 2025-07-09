@@ -10,7 +10,7 @@ const Header = () => {
 }
     return (
         <div className={'header'}>
-            <Button onClick = {onClose}>Закрыть</Button>
+            <Button onClick = {onClose}>Убрать</Button>
             <span className={'username'}>
                 {tg.initDataUnsafe?.user?.username}
             </span>
